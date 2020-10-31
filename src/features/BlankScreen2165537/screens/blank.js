@@ -32,7 +32,14 @@ export default class Blank extends React.Component {
     CheckBox_7: true,
     CheckBox_8: true,
     CheckBox_9: true,
-    CheckBox_10: true
+    CheckBox_10: true,
+    CheckBox_11: true,
+    CheckBox_12: true,
+    CheckBox_13: true,
+    CheckBox_14: true,
+    CheckBox_15: true,
+    CheckBox_18: true,
+    CheckBox_20: true
   }
 
   render = () => (
@@ -82,6 +89,41 @@ export default class Blank extends React.Component {
         checked={this.state.CheckBox_10}
         onPress={nextChecked => this.setState({ CheckBox_10: nextChecked })}
       />
+      <CheckBox
+        title="Racing Thoughts "
+        checked={this.state.CheckBox_11}
+        onPress={nextChecked => this.setState({ CheckBox_11: nextChecked })}
+      />
+      <CheckBox
+        title="Crying"
+        checked={this.state.CheckBox_12}
+        onPress={nextChecked => this.setState({ CheckBox_12: nextChecked })}
+      />
+      <CheckBox
+        title="Numb "
+        checked={this.state.CheckBox_13}
+        onPress={nextChecked => this.setState({ CheckBox_13: nextChecked })}
+      />
+      <CheckBox
+        title="Thoughts of Suicide "
+        checked={this.state.CheckBox_14}
+        onPress={nextChecked => this.setState({ CheckBox_14: nextChecked })}
+      />
+      <CheckBox
+        title="Thoughts of Self Harm "
+        checked={this.state.CheckBox_15}
+        onPress={nextChecked => this.setState({ CheckBox_15: nextChecked })}
+      />
+      <CheckBox
+        title="Thoughts of Harming Others "
+        checked={this.state.CheckBox_18}
+        onPress={nextChecked => this.setState({ CheckBox_18: nextChecked })}
+      />
+      <CheckBox
+        title="Thoughts of Using Drugs "
+        checked={this.state.CheckBox_20}
+        onPress={nextChecked => this.setState({ CheckBox_20: nextChecked })}
+      />
     </View>
   )
 }
@@ -105,5 +147,22 @@ const styles = StyleSheet.create({
   CheckBox_7: {},
   CheckBox_8: {},
   CheckBox_9: {},
-  CheckBox_10: {}
+  CheckBox_10: {},
+  View_1: {},
+  CheckBox_2: {},
+  CheckBox_3: {},
+  CheckBox_4: {},
+  CheckBox_5: {},
+  CheckBox_6: {},
+  CheckBox_7: {},
+  CheckBox_8: {},
+  CheckBox_9: {},
+  CheckBox_10: {},
+  CheckBox_11: {},
+  CheckBox_12: {},
+  CheckBox_13: {},
+  CheckBox_14: {},
+  CheckBox_15: {},
+  CheckBox_18: {},
+  CheckBox_20: {}
 })
